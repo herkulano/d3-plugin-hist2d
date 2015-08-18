@@ -1,0 +1,29 @@
+{
+  "name": "d3-plugin-hist2d",
+  "version": "1.0.0",
+  "homepage": "https://github.com/herkulano/d3-plugin-hist2d",
+  "authors": [
+    "Herculano Campos"
+  ],
+  "description": "Hist2D is a 2 Dimensional Histogram D3 plugin",
+  "main": "d3.hist2d.js",
+  "keywords": [
+    "visualization",
+    "2d",
+    "binning",
+    "d3",
+    "histogram",
+    "plugin"
+  ],
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.6"
+  }
+}
