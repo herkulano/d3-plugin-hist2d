@@ -6,6 +6,9 @@ It can be used as a module of a larger application, because it doesn't block the
 
 Inspired by the work of [Mike Bostock](https://github.com/d3/d3-plugins/tree/master/hexbin).
 
+#### Example
+
+http://bl.ocks.org/herkulano/4f43dbf3473dc5503052
 
 #### Usage
 
@@ -80,10 +83,6 @@ Returns an array with the width and height of the cells `[width, height]`.
 
 The binning function is non-blocking, so the values are computed between each animation frame for 12ms by default.
 
-#### Example
-
-...
-
 #### License & Acknowledgements
 
-LICENSE
+[LICENSE](https://raw.githubusercontent.com/herkulano/d3-plugin-hist2d/master/LICENSE)
