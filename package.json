@@ -7,7 +7,7 @@
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/herkulano/d3-plugin-hist2d"
+    "url": "git://github.com/herkulano/d3-plugin-hist2d.git"
   },
   "keywords": [
     "visualization",
