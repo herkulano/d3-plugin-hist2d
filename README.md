@@ -1,4 +1,4 @@
-# Two Dimensional Histogram
+# 2D Histogram
 
 **d3.hist2d** plugin implements a non-blocking **rectangular binning**. It's useful for displaying a scatterplot with millions of points, aggregating the data into a more coarse representation suitable for display.
 
@@ -8,7 +8,7 @@ Inspired by the work of [Mike Bostock](https://github.com/d3/d3-plugins/tree/mas
 
 #### Example
 
-http://bl.ocks.org/herkulano/4f43dbf3473dc5503052
+[http://bl.ocks.org/herkulano/4f43dbf3473dc5503052](http://bl.ocks.org/herkulano/4f43dbf3473dc5503052)
 
 #### Usage
 

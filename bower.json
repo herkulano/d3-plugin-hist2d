@@ -5,7 +5,7 @@
   "authors": [
     "Herculano Campos"
   ],
-  "description": "Hist2D is a 2 Dimensional Histogram D3 plugin",
+  "description": "Hist2D is a 2 dimensional histogram D3 plugin",
   "main": "d3.hist2d.js",
   "keywords": [
     "visualization",
