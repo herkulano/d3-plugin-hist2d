@@ -86,3 +86,7 @@ The binning function is non-blocking, so the values are computed between each an
 #### License & Acknowledgements
 
 [LICENSE](https://raw.githubusercontent.com/herkulano/d3-plugin-hist2d/master/LICENSE)
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/herkulano/d3-plugin-hist2d/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
