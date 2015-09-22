@@ -19,7 +19,6 @@ Expects [_data_] to be an array of arrays: _[[1,2],[3,4],...]_
 The _callback_ function is called when the binning is complete. It sends the data to its parameter.
 
 ```js
-
 d3.hist2d()
   .bins(40)
   .domain([0, 100])
@@ -28,7 +27,6 @@ d3.hist2d()
 function draw(hist) {
   // hist is the binned data
 }
-
 ```
 
 The returned data is an array of bins. Each bin contains its position in columns and rows as x and y:
@@ -62,7 +60,6 @@ d3.hist2d()
   .indices([2, 1])
   .domain([0, 100])
   (data, draw);
-
 ```
 
 If __indices__ is not set it defaults to `[0, 1]`.
