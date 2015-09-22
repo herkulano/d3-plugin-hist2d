@@ -8,7 +8,7 @@
     var yi = 1; // array index for y
     var x; // row scale
     var y; // column scale
-    var t = 12; // time in ms to compute data between animation frames
+    var t = 12; // interval in ms to compute data between animation frames
 
     function hist2d(data, callback) {
       x = _quantize(d[0]);
@@ -76,8 +76,8 @@
       return hist2d;
     };
 
-    // hist2d.time(number) => t
-    hist2d.time = function(_) {
+    // hist2d.interval(number) => t
+    hist2d.interval = function(_) {
       if (!arguments.length) { return t; }
       t = _;
       return hist2d;

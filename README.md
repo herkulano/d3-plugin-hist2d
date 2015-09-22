@@ -76,7 +76,7 @@ Sets the input domains for x and y. Expects an array with two arrays of numbers.
 
 Returns an array with the width and height of the cells `[width, height]`.
 
-<a name="time" href="#time">#</a> hexbin.__time__(_time_)
+<a name="interval" href="#interval">#</a> hexbin.__interval__(_interval_)
 
 The binning function is non-blocking, so the values are computed between each animation frame for 12ms by default.
 
@@ -86,4 +86,3 @@ The binning function is non-blocking, so the values are computed between each an
 
 
 [![Analytics](https://ga-beacon.appspot.com/UA-67903380-1/d3-plugin-hist2d/)](https://github.com/igrigorik/ga-beacon)
-
