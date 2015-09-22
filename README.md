@@ -83,3 +83,7 @@ The binning function is non-blocking, so the values are computed between each an
 #### License & Acknowledgements
 
 [LICENSE](https://raw.githubusercontent.com/herkulano/d3-plugin-hist2d/master/LICENSE)
+
+
+[![Analytics](https://ga-beacon.appspot.com/UA-67903380-1/d3-plugin-hist2d/)](https://github.com/igrigorik/ga-beacon)
+
