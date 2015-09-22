@@ -88,5 +88,5 @@ The binning function is non-blocking, so the values are computed between each an
 [LICENSE](https://raw.githubusercontent.com/herkulano/d3-plugin-hist2d/master/LICENSE)
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/herkulano/d3-plugin-hist2d/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+[![Analytics](https://ga-beacon.appspot.com/UA-67903380-1/d3-plugin-hist2d/)](https://github.com/igrigorik/ga-beacon)
 
