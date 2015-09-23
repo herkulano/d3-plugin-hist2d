@@ -1,6 +1,6 @@
 {
   "name": "d3-plugin-hist2d",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage": "https://github.com/herkulano/d3-plugin-hist2d",
   "authors": [
     "Herculano Campos"
@@ -11,6 +11,7 @@
     "visualization",
     "2d",
     "binning",
+    "heatmap",
     "d3",
     "histogram",
     "plugin"
