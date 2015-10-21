@@ -36,12 +36,12 @@ The returned data is an array of bins. Each bin contains its position in columns
 
 Bins that are empty are omitted.
 
-<a name="bins" href="#bins">#</a> hexbin.__bins__(_bins_)
+<a name="bins" href="#bins">#</a> hist2d.__bins__(_bins_)
 
 Sets the number of columns and rows for the bins of the rectangular histogram.
 The total number of bins is `columns * rows === bins * bins`
 
-<a name="indices" href="#indices">#</a> hexbin.__indices__([_x index_, _y index_])
+<a name="indices" href="#indices">#</a> hist2d.__indices__([_x index_, _y index_])
 
 Defines the indices of the data in the original array. This is useful if the data has more than two values or if the values are out of order.
 
@@ -64,19 +64,19 @@ d3.hist2d()
 
 If __indices__ is not set it defaults to `[0, 1]`.
 
-<a name="domain" href="#domain">#</a> hexbin.__domain__([ [_x domain_], [_y domain_] ])
+<a name="domain" href="#domain">#</a> hist2d.__domain__([ [_x domain_], [_y domain_] ])
 
 Sets the input domains for x and y. Expects an array with two arrays of numbers.
 
-<a name="size" href="#size">#</a> hexbin.__size__([_width, height_])
+<a name="size" href="#size">#</a> hist2d.__size__([_width, height_])
 
 `[width, height]` of the scatterplot. Sets the width and height of the cells `size / bins`.
 
-<a name="size_get" href="#size_get">#</a> hexbin.__size__()
+<a name="size_get" href="#size_get">#</a> hist2d.__size__()
 
 Returns an array with the width and height of the cells `[width, height]`.
 
-<a name="interval" href="#interval">#</a> hexbin.__interval__(_interval_)
+<a name="interval" href="#interval">#</a> hist2d.__interval__(_interval_)
 
 The binning function is non-blocking, so the values are computed between each animation frame for 12ms by default.
 
