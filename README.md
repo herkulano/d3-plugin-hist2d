@@ -1,5 +1,7 @@
 # 2D Histogram
 
+[![bitHound Dependencies](https://www.bithound.io/github/herkulano/d3-plugin-hist2d/badges/dependencies.svg)](https://www.bithound.io/github/herkulano/d3-plugin-hist2d/master/dependencies/npm)
+
 **d3.hist2d** plugin implements a non-blocking **rectangular binning**. It's useful for displaying a scatterplot with millions of points, aggregating the data into a more coarse representation suitable for display.
 
 It can be used as a module of a larger application, because it doesn't block the UI, it computes the values between each animation frame.
