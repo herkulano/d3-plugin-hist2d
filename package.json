@@ -1,6 +1,6 @@
 {
   "name": "d3-plugin-hist2d",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "d3.hist2d.js",
   "author": {
     "name": "Herculano Campos",
