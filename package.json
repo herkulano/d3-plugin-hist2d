@@ -1,6 +1,6 @@
 {
   "name": "d3-plugin-hist2d",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Hist2D is a two dimensional histogram D3 plugin",
   "keywords": [
     "d3",
