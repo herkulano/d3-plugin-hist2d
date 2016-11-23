@@ -60,7 +60,7 @@ Example:
 d3.hist2d()
   .bins(40)
   .indices([2, 1])
-  .domain([0, 100])
+  .domain([[0, 100], [0, 100]])
   (data, draw);
 ```
 
@@ -69,14 +69,6 @@ If __indices__ is not set it defaults to `[0, 1]`.
 <a name="domain" href="#domain">#</a> hist2d.__domain__([ [_x domain_], [_y domain_] ])
 
 Sets the input domains for x and y. Expects an array with two arrays of numbers.
-
-<a name="size" href="#size">#</a> hist2d.__size__([_width, height_])
-
-`[width, height]` of the scatterplot. Sets the width and height of the cells `size / bins`.
-
-<a name="size_get" href="#size_get">#</a> hist2d.__size__()
-
-Returns an array with the width and height of the cells `[width, height]`.
 
 <a name="interval" href="#interval">#</a> hist2d.__interval__(_interval_)
 

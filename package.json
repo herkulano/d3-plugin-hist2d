@@ -1,32 +1,35 @@
 {
   "name": "d3-plugin-hist2d",
-  "version": "1.0.3",
-  "main": "d3.hist2d.js",
-  "author": {
-    "name": "Herculano Campos",
-    "url": "http://herkulano.com"
-  },
+  "version": "2.0.0",
   "description": "Hist2D is a two dimensional histogram D3 plugin",
-  "license": "BSD-3-Clause",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/herkulano/d3-plugin-hist2d.git"
-  },
   "keywords": [
+    "d3",
+    "d3-module",
     "visualization",
     "2d",
     "binning",
     "heatmap",
-    "d3",
     "histogram",
     "plugin"
   ],
-  "dependencies": {
-    "d3": "^3.5.6"
+  "license": "BSD-3-Clause",
+  "main": "build/d3-hist2d.js",
+  "jsnext:main": "index",
+  "homepage": "https://github.com/herkulano/d3-plugin-hist2d",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herkulano/d3-plugin-hist2d.git"
+  },
+  "scripts": {
+    "pretest": "rm -rf build && mkdir build && rollup -f umd -n d3 -o build/d3-hist2d.js -- index.js",
+    "test": "tape 'test/**/*-test.js'",
+    "prepublish": "npm run test && uglifyjs build/d3-hist2d.js -c -m -o build/d3-hist2d.min.js",
+    "postpublish": "zip -j build/d3-hist2d.zip -- LICENSE README.md build/d3-hist2d.js build/d3-hist2d.min.js"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-uglify": "^1.2.0"
+    "eslint": "3",
+    "rollup": "0.36",
+    "tape": "4",
+    "uglify-js": "2"
   }
 }
