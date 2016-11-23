@@ -1,12 +1,12 @@
 {
   "name": "d3-plugin-hist2d",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "d3.hist2d.js",
   "author": {
     "name": "Herculano Campos",
-    "url": "http://herkulano.com"
+    "url": "https://herkulano.com"
   },
-  "description": "Hist2D is a two dimensional histogram D3 plugin",
+  "description": "Hist2D is a two dimensional histogram D3 v3 plugin",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",

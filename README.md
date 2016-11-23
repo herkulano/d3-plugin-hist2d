@@ -1,5 +1,10 @@
 # 2D Histogram
 
+## Deprecated
+**Use [https://github.com/herkulano/d3-hist2d](https://github.com/herkulano/d3-hist2d) for D3 v4**
+
+---
+
 [![bitHound Overall Score](https://www.bithound.io/github/herkulano/d3-plugin-hist2d/badges/score.svg)](https://www.bithound.io/github/herkulano/d3-plugin-hist2d)
 
 **d3.hist2d** plugin implements a non-blocking **rectangular binning**. It's useful for displaying a scatterplot with millions of points, aggregating the data into a more coarse representation suitable for display.
@@ -69,14 +74,6 @@ If __indices__ is not set it defaults to `[0, 1]`.
 <a name="domain" href="#domain">#</a> hist2d.__domain__([ [_x domain_], [_y domain_] ])
 
 Sets the input domains for x and y. Expects an array with two arrays of numbers.
-
-<a name="size" href="#size">#</a> hist2d.__size__([_width, height_])
-
-`[width, height]` of the scatterplot. Sets the width and height of the cells `size / bins`.
-
-<a name="size_get" href="#size_get">#</a> hist2d.__size__()
-
-Returns an array with the width and height of the cells `[width, height]`.
 
 <a name="interval" href="#interval">#</a> hist2d.__interval__(_interval_)
 
